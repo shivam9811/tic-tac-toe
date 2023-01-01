@@ -1,0 +1,73 @@
+@import url("http://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(247, 239, 247);
+}
+
+::-webkit-scrollbar-thumb {
+  height: 40px;
+  background-color: rgb(140, 0, 255);
+}
+
+body {
+  margin: 0;
+  font-family: "Open-Sans", sans-serif;
+  color: rgb(44, 41, 44);
+  background-color: rgb(247, 239, 247);
+  overflow-x: hidden;
+}
+
+.pwh {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.hearts {
+  color: red;
+  font-size: 25px;
+  position: relative;
+  top: -2px;
+}
+
+.header {
+  background-color: rgb(140, 0, 255);
+  color: #fff;
+  padding: 1rem 5%;
+  text-align: center;
+}
+
+.button {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  background-color: rgb(140, 0, 255);
+  border: 1px solid rgb(140, 0, 255);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-alt {
+  background-color: transparent;
+  border-color: transparent;
+  color: rgb(140, 0, 244);
+}
+
+.button:hover {
+  background-color: rgb(70, 10, 190);
+  border-color: rgb(70, 10, 190);
+}
+
+.button-alt:hover {
+  background-color: rgb(245, 232, 255);
+  border-color: transparent;
+}
